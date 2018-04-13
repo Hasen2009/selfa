@@ -1,0 +1,138 @@
+/* Gobal rules */
+@font-face {
+	font-family: 'bukrabold';
+	font-style: normal;
+	font-weight: 700;
+	src: url(../../fonts/29ltbukrabold.ttf);
+}
+
+@font-face {
+	font-family: 'bukra';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../../fonts/29ltbukraregular.ttf);
+}
+
+@font-face {
+	font-family: 'bukra-Light';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../../fonts/29ltbukralight.ttf);
+}
+body{
+  font-family: 'bukrabold', sans-serif;
+  direction: rtl;
+}
+a {
+	text-decoration: none;
+}
+
+/* start header */
+header {
+  background-color: #014F73;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 4px
+}
+header img {
+  height: 50px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 25px
+}
+header input {
+  margin-right: 20px;
+  height: 43px;
+  width: 300px;
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 0;
+  border: none;
+}
+header button {
+  padding: 13px 15px;
+  margin-right: -6px;
+  background-color: #FEB08C;
+  color: #FFF;
+  font-weight: 400;
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+/* start content */
+.content {
+  border: 1px solid black;
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  background-color: #F9FBFD;
+  padding-bottom: 20px;
+  border: 1px solid #DDD;
+  box-shadow: 2px 2px 2px  #888888;
+	margin-top: 60px
+}
+.content h1 {
+  font-size: 19px;
+  margin-top: 40px;
+  margin-bottom: 30px
+}
+.content input, .content button {
+  display: block;
+  margin: auto;
+  width: 350px;
+  height: 40px;
+  background-color: #F9FBFD;
+  border: 1px solid #CCC;
+  color: #999;
+  text-align: center;
+}
+.content input {
+	font-size: 13px
+}
+.content #email {
+  margin-top: 30px;
+  margin-bottom: 15px
+}
+.content .item {
+	margin-bottom: 10px
+}
+.content button {
+  margin-top: 35px;
+  height: 55px;
+  background-color: #1fd06e;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 15px;
+	margin-bottom: 20px
+}
+.content .icons {
+  margin-bottom: 40px;
+	margin-top: 40px
+}
+.content .icons a {
+  font-size: 15px;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 50%;
+  color: #FFF;
+  margin: auto 5px
+}
+
+.content .icons i {
+  width: 32px;
+}
+a.facebook {
+  background-color: #3b5998;
+}
+a.twitter {
+  background-color: #55acee;
+}
+a.youtube {
+  background-color: #ff0000
+}
+a.main {
+  color:  #999;
+  font-size: 14px;
+  font-weight: bold;
+}

@@ -1,0 +1,295 @@
+/* Gobal rules */
+@font-face {
+	font-family: 'bukrabold';
+	font-style: normal;
+	font-weight: 700;
+	src: url(../fonts/29ltbukrabold.ttf);
+}
+
+@font-face {
+	font-family: 'bukra';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/29ltbukraregular.ttf);
+}
+
+@font-face {
+	font-family: 'bukra-Light';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/29ltbukralight.ttf);
+}
+body{
+  font-family: 'bukrabold', sans-serif;
+  direction: rtl;
+	color: #FFF;
+	background-color: #F6F7F9;
+}
+a {
+	text-decoration: none;
+}
+/* start Header */
+header{
+	background-image: url(../img/header.jpg);
+	background-size: cover;
+}
+header a img {
+	margin-top: 20px;
+	margin-right: 150px
+}
+header h1 {
+	margin-right: 150px;
+	font-size: 35px;
+	font-weight: 300;
+	margin-top: 40px
+}
+header #avServices {
+	margin-right: 150px;
+	margin-top: 40px;
+	background-color: #FFF;
+	color: #4b98a9;
+	border: 2px solid #FFF;
+	border-radius: 2px;
+}
+header #avServices:hover {
+	background-color: #feb08c;
+	color: #FFF;
+	border: 2px solid #feb08c;
+	transition: all 0.4s ease;
+}
+header #more {
+	background-color: #274564;
+	margin-right: -5px;
+	border: 2px solid #FFF;
+	border-radius: 2px;
+}
+header #more:hover {
+	color: #feb08c;
+	border: 2px solid #feb08c;
+	transition: all 0.4s ease;
+}
+header #more i {margin-left: 7px}
+header button {
+	padding: 20px 60px;
+	border: 1px solid #FFF;
+	color: #FFF;
+	margin-bottom: 60px;
+	cursor: pointer;
+}
+/* start intro */
+.intro {
+	background-color: #F6F7F9;
+	padding: 60px 0;
+	text-align: center;
+}
+.intro a {
+	color: #323a45;
+	font-weight: 400;
+	padding: 20px;
+}
+.intro a:hover {
+	color: #feb08c;
+	transition: all .4s ease
+}
+.intro a span {
+	font-size: 20px;
+	display: inline-block;
+}
+.intro a i {
+	font-size: 50px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+/* start featsIntro */
+.featsIntro{
+	 overflow: hidden;
+	 color: #FFF;
+	 background-color: #3F6184;
+ }
+.featsIntro section, .featsIntro img {
+	float: right;
+	width: 50%;
+	text-align: center;
+}
+.featsIntro section h1 {
+	font-weight: 400;
+	font-size: 22px;
+	padding-top: 70px;
+}
+.featsIntro section p {
+	font-size: 14px;
+	line-height: 2;
+	padding: 10px 100px 0 100px;
+	text-align: right;
+}
+.featsIntro section a {
+	margin: 20px 0;
+	margin-left: 120px;
+	color: #FEB08C;
+}
+
+/* start services */
+#services {
+	text-align: center;
+	background-color: #345271;
+	padding-top: 60px;
+	padding-bottom: 100px
+}
+#services h1 {
+	font-weight: 400;
+	font-size: 40px;
+}
+#services .service {
+	margin-top: -10px;
+}
+#services .service a {
+	border: 2px solid #FFF;
+	border-radius: 3px;
+	color: #FFF;
+	margin-right: 15px;
+	display: inline-block;
+	width: 180px;
+	height: 160px;
+}
+#services .service a:hover, #app .appInfo a:hover {
+	color: #feb08c;
+	border: 2px solid #feb08c;
+	transition: all .3s ease;
+}
+#services .service a i {
+	font-size: 40px;
+	display: block;
+	margin-top: 50px
+}
+#services .service a p {
+	margin: 0;
+	padding: 0;
+}
+/* start subscribe */
+.subscribe {
+	color: black;
+	margin-top: 70px;
+}
+.subscribe h3, .subscribe p{
+	padding-right: 100px
+}
+.subscribe h3 {
+	color: #24374B;
+	font-size: 23px
+}
+.subscribe p {
+	color: #778899;
+	font-size: 14px;
+	line-height: 2
+}
+.subscribe .subA {
+	color: #feb08c;
+}
+.subscribe .subA i {
+	margin-right: 5px;
+}
+/*start app */
+#app {
+	background-image: url(../img/showcase.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	overflow:visible;
+	position: relative;
+	padding-top: 75px;
+	padding-right: 120px;
+	padding-bottom: 275px;
+	display: none;
+}
+#app .appInfo{
+	width: 50%;
+}
+#app .appInfo p {
+	font-size: 14px;
+	line-height: 2;
+	margin-top: 10px;
+	margin-bottom: 100px
+}
+#app .appInfo a {
+	padding: 20px 50px;
+	border: 2px solid #FFF;
+	color: #FFF;
+	border-radius: 2px;
+}
+#app .appInfo a i {margin-right: 7px}
+#app h1 {
+	font-weight: 400;
+  font-size: 22px;
+}
+#app .appPic {
+	position: absolute;
+	top:20px;
+	left: 200px;
+}
+#app .appPic .content {
+	position: absolute;
+	top: 116px;
+	left: 56px;
+}
+#app .appPic .content img {
+	width: 245px;
+	height: 442px;
+	border: 1px solid black;
+	border-radius: 2px;
+}
+#app .appPic .dots {
+	position: absolute;
+	bottom: 125px;
+	left: 154px;
+	text-align: center;
+	direction: rtl;
+}
+#app .appPic .dots .dot  {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	border: 2px solid #FFF;
+	background-color: none;
+	display: inline-block;
+	cursor: pointer;
+}
+
+/* start footer */
+footer {
+	background-color: #FFF;
+	overflow: hidden;
+	padding-top: 90px;
+	padding-bottom: 50px
+}
+footer .right {
+	width: 50%;
+	float: right;
+	text-align: center;
+	margin-right: 200px
+}
+footer .right span {
+	width: 25%;
+	float: right;
+}
+footer .right span img {
+	width: 120px;
+	height: 120px;
+}
+footer .left {
+	width: 30%;
+  float: left;
+}
+footer .left span img {
+	width: 160px;
+	height: 70px;
+	margin-right: 180px;
+}
+footer .left  p {
+	margin-right: 100px;
+	color: #c7cacc;
+	font-size: 12px;
+	margin-top: 30px
+}
+footer .left  p a em {
+	color: #feb08c;
+}

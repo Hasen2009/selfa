@@ -1,0 +1,140 @@
+/* Gobal rules */
+@font-face {
+	font-family: 'bukrabold';
+	font-style: normal;
+	font-weight: 700;
+	src: url(../../fonts/29ltbukrabold.ttf);
+}
+
+@font-face {
+	font-family: 'bukra';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../../fonts/29ltbukraregular.ttf);
+}
+
+@font-face {
+	font-family: 'bukra-Light';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../../fonts/29ltbukralight.ttf);
+}
+body{
+  font-family: 'bukrabold', sans-serif;
+  direction: rtl;
+  background-color: #ECF0F5
+}
+a {
+	text-decoration: none;
+}
+
+/* start header */
+header {
+  background-color: #014F73;
+  overflow: hidden;
+  width: 100%;
+  position: static;
+  padding-bottom: 4px
+}
+header img {
+  height: 50px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 25px
+}
+header .icons {
+  margin-right: 200px;
+}
+header .icons span {
+  margin-top: 25px;
+  margin-left: 80px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #FFF;
+  font-size: 30px;
+  position: relative;
+  cursor: pointer;
+}
+header .icons span label {
+  position: absolute;
+  top: -10px;
+  right: -20px;
+  color: #FFF;
+  font-size: 12px;
+  background-color: #1d1c1d;
+  border-radius: 50%;
+  padding: 5px 7px;
+}
+header .search {
+  float: left;
+  margin-left: 20px
+}
+header input {
+  margin-right: 20px;
+  height: 43px;
+  width: 300px;
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 0;
+  border: none;
+}
+header button {
+  padding: 13px 15px;
+  margin-right: -6px;
+  background-color: #FEB08C;
+  color: #2A2B2A;
+  font-weight: 400;
+  border: none;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* start content */
+.container {
+  width: 85%;
+  margin: 50px auto;
+}
+.container .service i {
+  display: block;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+.container .service label {
+  font-size: 30px
+}
+.container .service p {
+  font-size: 30px
+}
+.container .service a {
+	color: #FFF
+}
+.container .service {
+  height: 220px;
+  width: 32%;
+  box-shadow: 2px 2px 2px #CCC;
+  color: #FFF;
+  text-align: center;
+  font-weight: bold;
+  float: right;
+  margin-right: 1%;
+  margin-bottom: 20px
+}
+.container #first {
+	background-color: #FF4A43;
+}
+.container #sec {
+  background-color: #22BEEF
+}
+.container #third {
+  background-color: #9ac114
+}
+.container #forth {
+  background-color: #FE9507
+}
+.container #fifth {
+  background-color: #3a3e2d
+}
+.container #sixth {
+  background-color: #6f2b6d
+}
