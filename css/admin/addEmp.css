@@ -65,6 +65,13 @@ header .icons span label {
   border-radius: 50%;
   padding: 5px 7px;
 }
+header .icons span:hover label {
+	color: #BC385A;
+	background-color: #2A2B2A;
+	font-size: 16px;
+	padding: 7px 9px;
+	transition: all 0.2s ease-in-out
+}
 header .search {
   float: left;
   margin-left: 20px

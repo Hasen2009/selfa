@@ -1,4 +1,7 @@
 $(document).ready(function(){
+  API('https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=BTC,USD,EUR','GET',function(data){
+   console.log(data);
+ });
   $('.1').on('click', function(){
     $('.content img').attr('src', 'img/screen1.jpg')
   });

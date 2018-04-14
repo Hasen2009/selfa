@@ -65,6 +65,13 @@ header .icons span label {
   border-radius: 50%;
   padding: 5px 7px;
 }
+header .icons span:hover label {
+	color: #BC385A;
+	background-color: #2A2B2A;
+	font-size: 16px;
+	padding: 7px 9px;
+	transition: all 0.2s ease-in-out
+}
 header .search {
   float: left;
   margin-left: 20px
@@ -113,7 +120,7 @@ header button {
   height: 220px;
   width: 32%;
   box-shadow: 2px 2px 2px #CCC;
-  color: #FFF;
+  background-color: #FFF;
   text-align: center;
   font-weight: bold;
   float: right;
@@ -121,20 +128,43 @@ header button {
   margin-bottom: 20px
 }
 .container #first {
+	color: #FF4A43;
+}
+.container #first:hover {
 	background-color: #FF4A43;
 }
 .container #sec {
+	color: #22BEEF;
+}
+.container #sec:hover {
   background-color: #22BEEF
 }
 .container #third {
-  background-color: #9ac114
+  color: #9ac114
+}
+.container #third:hover {
+	background-color: #9ac114;
 }
 .container #forth {
+  color: #FE9507
+}
+.container #forth:hover {
   background-color: #FE9507
 }
 .container #fifth {
+  color: #3a3e2d
+}
+.container #fifth:hover {
   background-color: #3a3e2d
 }
 .container #sixth {
+  color: #6f2b6d
+}
+.container #sixth:hover {
   background-color: #6f2b6d
+}
+#first:hover, #sec:hover,#third:hover,#forth:hover,#fifth:hover,#sixth:hover{
+	color: #FFF;
+	font-size: 40px;
+	transition: all 0.4s ease-in-out
 }

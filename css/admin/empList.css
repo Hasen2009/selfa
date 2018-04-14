@@ -65,6 +65,13 @@ header .icons span label {
   border-radius: 50%;
   padding: 5px 7px;
 }
+header .icons span:hover label {
+	color: #BC385A;
+	background-color: #2A2B2A;
+	font-size: 16px;
+	padding: 7px 9px;
+	transition: all 0.2s ease-in-out
+}
 header .search {
   float: left;
   margin-left: 20px
@@ -105,13 +112,23 @@ header button {
   border: 1px solid #ddd;
   padding: 5px 15px;
   border-radius: 10px;
-  color: #FFF
+	color: #FFF
 }
 a#plural {
   background-color: #8BC34A;
 }
 a#single {
-  background-color: #23527c
+  background-color: #23527c;
+}
+a#plural:hover, a#single:hover {
+	background-color: #FFF;
+	transition: all .3s ease-in-out
+}
+a#plural:hover {
+	color: #8BC34A;
+}
+a#single:hover{
+	color: #23527c;
 }
 /* start table */
 .container {
@@ -125,7 +142,8 @@ table {
   border-collapse: collapse;
   padding: 30px 35px
 }
-tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(even) {background-color: #CCC;}
+tr:hover {background-color: #333; color: #fff;transition: all .2s ease-in-out}
 th {
   background-color: #f3f3f3;
   padding: 10px
